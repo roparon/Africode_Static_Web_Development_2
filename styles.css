@@ -40,3 +40,33 @@ header nav li a{
     padding: 40px;
     border: 2px solid black;
 }
+div{
+    background-color:lightblue;
+    width: 200px;
+    height: 80px;
+
+}
+.box-two {
+    background-color: lightgreen;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+   }
+   .box-three {
+    background-color: lightpink;
+    border-width: 5px;
+    border-style:double
+   }
+    .box-one, .box-two, .box-three {
+        margin-bottom: 20px;
+        text-align: center;
+        border-color: rgb(11, 24, 143);
+    }
+    .rainbow-box {
+        border-width: 4px;
+        border-style: solid;
+        border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+        border-image-slice: 1;
+    }
+    
