@@ -95,3 +95,26 @@ div{
 .border-box {
     box-sizing: border-box;
 }
+/* Outer Box */
+.outer-box {
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    margin: 50px; /* margin outside the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Inner Box */
+  .inner-box {
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+    padding: 20px; /* padding inside the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
